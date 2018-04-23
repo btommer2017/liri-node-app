@@ -2,7 +2,7 @@
 
 Use the command line using these key words after typing node liri.js:
 
-my-tweets
+my-tweets /n
 node liri.js my-tweets will show my last 20 tweets
 
 spotify-this-song
