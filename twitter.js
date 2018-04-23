@@ -9,13 +9,11 @@ var twitter = new Twitter(keys.twitter);
 	        for (let i=0; i<tweet.length; i++) {
 	            var twitterData = (tweet[i].created_at + '\n' + tweet[i].text + '\n');
 	            console.log(twitterData);
-                console.log("----------------------------------------------");
-              
-	        }
+                console.log("------------------------------------------------------------------------------------");
+                    }
         }
         else {
-            // if error is true, log to the console that we ran into an error and instruct the user to try again
-            console.log("THERE WAS AN ERROR PLEASE TRY AGAIN")
-            
-        };
+            // if error 
+            return console.log("Sorry")
+              };
 	});
